@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+ 
+  <div class="preloader">
+    <div class="loader">
+      <span class="text">Loading</span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo" data-aos="fade-down">
+        <a href="#">Anubhav | Full Stack Developer</a>
+      </div>
+      <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h3 class="subtitle animate__animated animate__fadeInUp">Hello, I'm</h3>
+        <h1 class="name animate__animated animate__fadeInUp animate__delay-1s">Anubhav Singh</h1>
+        <h2 class="title animate__animated animate__fadeInUp animate__delay-2s">Full Stack Developer</h2>
+        <p class="description animate__animated animate__fadeInUp animate__delay-3s">
+         Building reliable, fast, and scalable platforms 🚀💻
+        </p>
+        <div class="cta-buttons animate__animated animate__fadeInUp animate__delay-4s">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="#projects" class="btn btn-secondary">View My Work</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#about">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <div class="arrow">
+          <span></span>
+          <span></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <span class="section-divider"></span>
+      </div>
+      <div class="about-content">
+        <div class="about-image" data-aos="fade-right">
+          <img src="projectimage/Anubhav.jpg" alt="Anubhav Singh" class="profile-image">
+          <div class="experience-badge">
+            <span class="years">2+</span>
+            <span class="text">Years<br>Experience</span>
+          </div>
+        </div>
+        <div class="about-text" data-aos="fade-left">
+          <h3>A passionate Developer based in India</h3>
+          <p>I'm a Full Stack Web2 & Web3 Developer skilled in Solidity, TypeScript, React, Node.js, and Rust. I build secure, scalable dApps and smart contracts across Ethereum, Solana, and L2s like zkSync. My stack spans JavaScript, Python, SQL, AWS, Docker, and modern frameworks like Next.js, FastAPI, and PostgreSQL — backed by strong DSA, OOP, and API design skills.</p>
+          <p>I've worked as a Software Engineering Intern at Anabi.Ai, where I built AI-powered analytics tools with OpenAI, architected data systems using Snowflake, MSSQL, and SQLGlot, and developed scalable backend solutions with FastAPI, tRPC, and Prisma. I also contribute to open-source projects through OnlyDust, collaborating on protocol-level infrastructure across Ethereum, Starknet, and Solana, improving developer tooling and security.</p>
+          
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-user"></i>
+              <div>
+                <h4>Name</h4>
+                <p>Anubhav Singh</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>anumukul009@gmail.com</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>India</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-calendar-alt"></i>
+              <div>
+                <h4>Available</h4>
+                <p>Freelance & Full-time</p>
+              </div>
+            </div>
+          </div>
+          
+          <a href="ANUBHAV_SDE(2).pdf" class="btn btn-primary">Download CV <i class="fas fa-download"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Skills</h2>
+        <span class="section-divider"></span>
+      </div>
+      <div class="skills-content">
+        <div class="skills-text" data-aos="fade-right">
+          <h3>Technical Skills & Experience</h3>
+          <p>I've been developing websites and applications for over 2 years, focusing on creating responsive, user-friendly interfaces with clean code. My expertise includes:</p>
+          <ul class="skills-list">
+            <li><i class="fas fa-check-circle"></i> Full Stack Development (TypeScript, JavaScript, Python, C++)</li>
+            <li><i class="fas fa-check-circle"></i> Smart Contract Development (Solidity, Rust)</li>
+            <li><i class="fas fa-check-circle"></i> Modern Frameworks (React.js, Next.js, FastAPI, Express.js)</li>
+            <li><i class="fas fa-check-circle"></i> DeFi, ZKPs & Layer 2 Solutions (zkSync, Ethereum, Solana)</li>
+            <li><i class="fas fa-check-circle"></i> API Design & Backend Integration (tRPC, REST, SQLAlchemy)</li>
+            <li><i class="fas fa-check-circle"></i> Databases & ORMs (PostgreSQL, MongoDB, MySQL, Prisma)</li>
+            <li><i class="fas fa-check-circle"></i> Cloud & DevOps (AWS, Docker, Kubernetes, GitHub Actions)</li>
+          </ul>
+        </div>
+        <div class="skills-bars" data-aos="fade-left">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">HTML/CSS</span>
+              <span class="skill-percentage">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">JavaScript / React.js</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Solidity / Smart Contracts</span>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">MongoDB / Database Managemen</span>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Node.js / Python  Backend Development</span>
+              <span class="skill-percentage">75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tools-section" data-aos="fade-up">
+        <h3>Tools & Technologies</h3>
+        <div class="tools-grid">
+          <div class="tool-item">
+            <i class="fa-brands fa-js"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="tool-item">
+            <i class="fa-brands fa-rust"></i>
+            <p>Rust</p>
+          </div>
+          <div class="tool-item">
+            <i class="fa-brands fa-python"></i>
+            <p>Python</p>
+          </div>
+          <div class="tool-item">
+            <i class="fab fa-react"></i>
+            <p>React</p>
+          </div>
+          <div class="tool-item">
+            <i class="fab fa-node-js"></i>
+            <p>Node.js</p>
+          </div>
+          <div class="tool-item">
+            <i class="fa-brands fa-aws"></i>
+            <p>aws</p>
+          </div>
+          <div class="tool-item">
+            <i class="fab fa-git-alt"></i>
+            <p>Git</p>
+          </div>
+          <div class="tool-item">
+            <i class="fa-brands fa-ethereum"></i>
+            <p>Solidity</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Projects</h2>
+        <span class="section-divider"></span>
+      </div>
+      
+      <div class="project-filters" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web2">Web2</button>
+        <button class="filter-btn" data-filter="web3">Web3</button>
+      </div>
+      
+      <div class="projects-grid">
+        <div class="project-item" data-category="web2" data-aos="fade-up">
+          <div class="project-image">
+            <img src="projectimage/TrackBit.png" alt="Project 1">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://track-bit.vercel.app/" class="project-link"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/anumukul/TrackBit" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>TrackBit-Cryptocurrency price Tracker</h3>
+            <p>TrackBit is a responsive crypto tracking web app built with HTML, CSS, and JavaScript, featuring real-time market data via a REST API. It includes a searchable coin table, clean UI, and modern design—highlighting API integration and frontend development skills.</p>
+            <div class="project-tags">
+             <span>React</span>
+<span>Vite</span>
+<span>JavaScript</span>
+<span>HTML</span>
+<span>CSS</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-item" data-category="web2" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image">
+            <img src="projectimage/Recall.png" alt="Project 2">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://recall-sepia-nine.vercel.app/" class="project-link"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/anumukul/recall" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Recall – Personalized Memory Assistant Chrome Extension</h3>
+            <p>Recall is a Chrome extension that helps Alzheimer's patients with personalized memory prompts. Built with Next.js, TypeScript, and PostgreSQL, it delivers user-specific content, secure authentication via NextAuth, and optimized media handling using Cloudinary—all in a responsive, full-stack architecture.</p>
+            <div class="project-tags">
+              <span>Chrome Extension API</span>
+<span>Next.js</span>
+<span>TypeScript</span>
+<span>NextAuth</span>
+<span>PostgreSQL</span>
+<span>Cloudinary</span>
+<span>Shadcn UI</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-item" data-category="web3" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image">
+            <img src="projectimage/Healthcare.png" alt="Project 3">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://health-care-dapp.vercel.app/" class="project-link"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/anumukul/healthCare-Dapp" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3> Decentralized Healthcare Management System</h3>
+            <p>Decentralized Healthcare Management System is a Web3 dApp for secure patient record management on Ethereum. Built with React.js, Solidity, Hardhat, and Ethers.js, it features role-based access control and smart contracts for record handling and provider authorization.</p>
+            <div class="project-tags">
+              <span>React.js</span>
+<span>Solidity</span>
+<span>Hardhat</span>
+<span>Ethers.js</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-item" data-category="web3" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-image">
+            <img src="projectimage/Staking.png" alt="Project 4">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://ethereum-staking-dapp-frontend.vercel.app/" class="project-link"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/anumukul/Ethereum-staking-Dapp-frontend" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Beans Staking-ETH-Staking Dapp</h3>
+            <p>Beans Staking is a full-stack Ethereum dApp that allows users to stake tokens with flexible and locked APY options. It features wallet integration, staking/unstaking logic, and real-time token tracking. The frontend is built with React.js, and the backend includes Solidity smart contracts and Hardhat for deployment and testing.</p>
+            <div class="project-tags">
+              <span>React.js</span>
+<span>Solidity</span>
+<span>Hardhat</span>
+<span>Ethereum</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-item" data-category="web3" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-image">
+            <img src="projectimage/DEX.png" alt="Project 5">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://decentralized-exchange-peach.vercel.app/" class="project-link"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/anumukul/Decentralized-Exchange" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Decentralized Exchange</h3>
+            <p>Decentralized Exchange (DEX) is a token swap platform enabling seamless ERC-20 token conversions on the Ethereum network. Built using React.js, it integrates web3 libraries for wallet connectivity and smart contract interaction, offering a clean, minimal UI for secure and efficient on-chain token swapping.</p>
+            <div class="project-tags">
+              <span>React.js</span>
+<span>Web3.js</span>
+<span>Ethereum</span>
+<span>Solidity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <span class="section-divider"></span>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Let's Work Together</h3>
+          <p>I'm currently available for freelance work and full-time positions. If you have a project that needs some creative touch, I'd love to hear about it.</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>anumukul009@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+91- 8081805733</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>India</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/anubhav-singh-59762322a/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/anumukul" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/AnubhavSingh456" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-form" data-aos="fade-left">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject" required>
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Your Message" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#"></a>
+        </div>
+        <p class="copyright">© 2025 All Rights Reserved | Designed with <i class="fas fa-heart"></i> by Anubhav</p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
